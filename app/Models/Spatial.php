@@ -1,0 +1,10 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Spatial extends Model
+{
+    protected $fillable = ['name', 'type', 'geom'];
+}
